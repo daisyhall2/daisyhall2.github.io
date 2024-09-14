@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+body > header {
+    background-color: lightpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+body > main article{
+    width: 60%;
+    margin: auto;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    }
+
+nav >ul>li>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+#logo{
+    margin: 0;
+    
+}
+
+footer {
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+footer ul li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+    text-align: center;
+    display: block; 
+}
+
+#menu{
+    padding: 32px;
+    background-color: palevioletred;
+    padding: 32px;
+    margin: 32px;
+}
+
+#subhead {
+    background-color: pink;
+    color: white;
+    grid-area: subhead;
+    text-align: center;
+
+}
+
+article > form {
+    text-align: center;
+}
+
+article > h3{
+    text-align: center;
+}
+
+#itema {
+   background-color: aliceblue;
+   grid-area: itema;
+   padding: 32px;
+   margin: 32px;
+}
+
+#itemb {
+    background-color: azure;
+    grid-area: itemb;
+    margin: 32px;
+    padding: 32px;
+}
+
+#itemc {
+    background-color: mistyrose;
+    grid-area: itemc;
+    padding: 32px;
+    margin: 32px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "itema itema itemb itemb"
+    "itema itema itemc itemc" ;
+}
